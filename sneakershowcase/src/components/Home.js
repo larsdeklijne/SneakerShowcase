@@ -117,15 +117,42 @@ const Home = () => {
                     <div className="d-flex flex-wrap">
                         <div className="col-md-4 text-center">
                             <div className="header-text">Schoen 4</div>
-                            <Image src={require('../images/logo1.png')} width="200" height="200" alt="Image 1" className="img-fluid" />
+                            <Image
+                                src={require("../images/kleineschoen4.png")}
+                                width="200"
+                                height="200"
+                                alt="Image 3"
+                                className="img-fluid"
+                                onMouseOver={() =>
+                                    onImageHover(require("../images/kleineschoen4.png"))
+                                }
+                            />
                         </div>
                         <div className="col-md-4 text-center">
                             <div className="header-text">Schoen 5</div>
-                            <Image src={require('../images/logo1.png')} width="200" height="200" alt="Image 2" className="img-fluid" />
+                            <Image
+                                src={require("../images/kleineschoen5.png")}
+                                width="200"
+                                height="200"
+                                alt="Image 3"
+                                className="img-fluid"
+                                onMouseOver={() =>
+                                    onImageHover(require("../images/kleineschoen5.png"))
+                                }
+                            />
                         </div>
                         <div className="col-md-4 text-center">
                             <div className="header-text">Schoen 6</div>
-                            <Image src={require('../images/logo1.png')} width="200" height="200" alt="Image 3" className="img-fluid" />
+                            <Image
+                                src={require("../images/kleineschoen6.png")}
+                                width="200"
+                                height="200"
+                                alt="Image 3"
+                                className="img-fluid"
+                                onMouseOver={() =>
+                                    onImageHover(require("../images/kleineschoen6.png"))
+                                }
+                            />
                         </div>
                     </div>
                 </div>
