@@ -24,6 +24,10 @@
   .navbar-brand{
     padding-left: 50px;
   }
+
+  .text-center{
+    padding-top: 50px;
+  }
   
   .right-side {
     background-color: #b7cdc0;

@@ -8,19 +8,9 @@ const Home = () => {
 <div className="container-fluid position-relative">
   <div className="position-relative">
     <div className="row">
-      <div className="col-md-6 p-0 left-side">
+      <div className="col-md-6 p-0 left-side" style={{ height: "80vh" }}>
         <div className="row">
           <div className="col-md-4">
-            <ul>
-              <li>Brand: Nike</li>
-              <li>Model: Air Max 270 React</li>
-              <li>Colorway: Black/Anthracite/White</li>
-              <li>Release Date: 2020</li>
-              <li>Style Code: CD0113-001</li>
-              <li>Price: $160</li>
-              <li>Upper Material: Textile</li>
-              <li>Sole Material: Rubber</li>
-            </ul>
           </div>
           <div className="col-md-4 text-center">
             <div className="header-text">Product Information</div>
@@ -32,9 +22,28 @@ const Home = () => {
           <div className="col-md-4"></div>
         </div>
       </div>
-      <div className="col-md-6 p-0 right-side">
-        {/* Right side content goes here */}
-      </div>
+      <div className="col-md-6 p-0 right-side" style={{ height: "80vh" }}>
+        <div className="row">
+                <div className="col-md-4">
+                </div>
+                <div className="col-md-4 text-center">
+                <ul style={{ listStyleType: 'none' }}>
+                    <li>Brand: Nike</li>
+                    <li>Model: Air Max 270 React</li>
+                    <li>Colorway: Black/Anthracite/White</li>
+                    <li>Release Date: 2020</li>
+                    <li>Style Code: CD0113-001</li>
+                    <li>Price: $160</li>
+                    <li>Upper Material: Textile</li>
+                    <li>Sole Material: Rubber</li>
+                    </ul>
+                </div>
+                <div className="col-md-4"></div>
+        </div>
+    </div>
+    </div>
+    <div>
+      test1
     </div>
     <div className="position-absolute top-50 start-50 translate-middle">
       {/* Container for the image */}
@@ -42,6 +51,7 @@ const Home = () => {
     </div>
   </div>
 </div>
+
 
 
 
