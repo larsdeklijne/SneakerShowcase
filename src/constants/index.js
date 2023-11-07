@@ -110,7 +110,7 @@ export const footerLinks = [
     {
         title: "Neem contact op",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
+            { name: "aanmelden@nike.nl", link: "mailto:aanmelden@nike.nl" },
             { name: "+92554862354", link: "tel:+92554862354" },
         ],
     },
