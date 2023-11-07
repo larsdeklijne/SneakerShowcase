@@ -1,6 +1,8 @@
 import { offer } from "../assets/images";
 import { Button } from "../components";
 
+import { arrowRight } from "../assets/icons";
+
 const SpecialOffer = () => {
   return (
     <section className="flex justify-wrap items-center max-xl:flex-col-reverse
