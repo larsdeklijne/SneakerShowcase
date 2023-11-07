@@ -1,6 +1,8 @@
 import { shoe8 } from "../assets/images";
 import { Button } from "../components";
 
+import { arrowRight } from "../assets/icons";
+
 const SuperQuality = () => {
   return (
     <section
@@ -22,7 +24,7 @@ const SuperQuality = () => {
         Onze toewijding aan detail en uitmuntendheid garandeert uw tevredenheid
         </p>
         <div className='mt-11'>
-          <Button label='Bekijk schoen' />
+          <Button label='Bekijk schoen'  iconURL={arrowRight}/>
         </div>
       </div>
 
